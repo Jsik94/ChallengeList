@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/myBackgroundColor</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/myBackgroundColor</item>
+        <!--하단 네비게이션바 (소프트 키바 투명)-->
+        <item name="android:windowTranslucentNavigation">true</item>
+        
+        <!--
+        반투명 스테이터스 바 메소드임
+        <item name="android:windowTranslucentStatus">true</item>
+        
+        -->
+    </style>
+
+</resources>
